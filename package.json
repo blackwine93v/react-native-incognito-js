@@ -4,9 +4,6 @@
   "version": "0.0.1",
   "description": "React Native Incognito Js",
   "main": "index.js",
-  "scripts": {
-    "postinstall": "rimraf $(pwd)/ios/Gomobile.framework && extract-zip ios/libs/Gomobile.framework.zip $(pwd)/ios"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/incognitochain/react-native-incognito-js.git",
@@ -29,8 +26,7 @@
   },
   "dependencies": {
     "events": "^3.1.0",
-    "incognito-js": "https://github.com/blackwine93v/sdk-v2",
-    "react-native-randombytes": "^3.5.3"
+    "incognito-js": "https://github.com/blackwine93v/sdk-v2"
   },
   "devDependencies": {
     "extract-zip": "^1.6.7",
